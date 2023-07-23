@@ -43,7 +43,6 @@ static_library("car") {
         "//kernel/liteos_m/kal/cmsis",
         "//base/iot_hardware/peripheral/interfaces/kits",
     ]
-    deps = [ "ssd1306:oled_ssd1306" ]
 }
 
 
